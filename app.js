@@ -2,14 +2,14 @@ const daysInWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 const years = [2020, 2021, 2022, 2023, 2024, 2025]
 const events = [
-    { text: 'text1', date: '2020-12-1', day: 1, month: 11, year: 2020, time: '01:00', details: 'detail 1'},
-    { text: 'text2', date: '2020-12-2', day: 2, month: 11, year: 2020, time: '02:00', details: 'detail 2'},
-    { text: 'text3', date: '2020-12-3', day: 3, month: 11, year: 2020, time: '03:00', details: 'detail 3'},
-    { text: 'text4', date: '2020-12-4', day: 4, month: 11, year: 2020, time: '04:00', details: 'detail 4'},
-    { text: 'text5', date: '2020-12-5', day: 5, month: 11, year: 2020, time: '05:00', details: 'detail 5'},
-    { text: 'text6', date: '2020-12-6', day: 6, month: 11, year: 2020, time: '06:00', details: 'detail 6'},
-    { text: 'text7', date: '2020-12-7', day: 7, month: 11, year: 2020, time: '07:00', details: 'detail 7'},
-    { text: 'text8', date: '2020-12-8', day: 8, month: 11, year: 2020, time: '08:00', details: 'detail 8'},
+    { text: 'text1', date: '2021-03-1', day: 1, month: 2, year: 2021, time: '01:00', details: 'detail 1'},
+    { text: 'text2', date: '2021-03-2', day: 2, month: 2, year: 2021, time: '02:00', details: 'detail 2'},
+    { text: 'text3', date: '2021-03-3', day: 3, month: 2, year: 2021, time: '03:00', details: 'detail 3'},
+    { text: 'text4', date: '2021-03-4', day: 4, month: 2, year: 2021, time: '04:00', details: 'detail 4'},
+    { text: 'text5', date: '2021-03-5', day: 5, month: 2, year: 2021, time: '05:00', details: 'detail 5'},
+    { text: 'text6', date: '2021-03-6', day: 6, month: 2, year: 2021, time: '06:00', details: 'detail 6'},
+    { text: 'text7', date: '2021-03-7', day: 7, month: 2, year: 2021, time: '07:00', details: 'detail 7'},
+    { text: 'text8', date: '2021-03-8', day: 8, month: 2, year: 2021, time: '08:00', details: 'detail 8'},
 ]
 
 
