@@ -1,0 +1,57 @@
+.calender {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows: 50px repeat(5, 100px);
+    justify-items: end;
+    grid-gap: 5px;
+    width: 700px;
+    margin: 0 auto;
+}
+.row1{
+    width: 700px;
+    /* sorry to use important to fix the bootstrap issue */
+    margin: 0 auto !important;
+ 
+}
+.seven-days {
+    border: 1px solid #ddd;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}
+
+.day {
+    display: grid;  
+    grid-template-rows: 1.5fr repeat(4, 1fr);
+    justify-items: end;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding-right: .3rem;
+    padding-top: .15rem;
+}
+
+.day .events {
+    font-size: .75rem;
+    justify-self: start;
+    padding-left: 5px;
+}
+
+.highlightToday  {
+    position: relative;
+    color: white;   
+}
+
+.highlightToday .events {
+    color: black;
+}
+
+.highlightToday::before {
+    content: "";
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    z-index: -999;
+    transform: translate(-.1rem,.1rem);
+}
